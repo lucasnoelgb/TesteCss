@@ -1,0 +1,29 @@
+@keyframes animacao{
+    100%{background-color:blue ;width:600px;  padding:90pxx}
+    75%{background-color: rgb(94, 255, 0);width:500px; padding:80px} 
+   50%{background-color:red ;width:400px  ; padding:70px}
+   25%{background-color: yellow;width:300px;  padding:60px} 
+   15%{background-color: rgb(226, 11, 154);width:150px; padding:50px} 
+   0%{background-color: yellow;width:100px; padding:40px} 
+    
+}
+   
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.conter{
+    width:500px;
+    height:500px;
+    animation-name: animacao;
+    animation-duration: 7s;
+    animation-delay:1s;
+    animation-iteration-count: 3;
+
+}
+
+ /* to{background-color:red ;width:900px}
+    from{background-color: yellow;width:300px
